@@ -11,6 +11,10 @@
 		A3714847285A506D00FD4B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714846285A506D00FD4B59 /* ContentView.swift */; };
 		A3714849285A507400FD4B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3714848285A507400FD4B59 /* Assets.xcassets */; };
 		A371484C285A507400FD4B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A371484B285A507400FD4B59 /* Preview Assets.xcassets */; };
+		A3714853285A50BB00FD4B59 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3714852285A50BB00FD4B59 /* Article.swift */; };
+		A3FA05CD285B1FF9003EC5DA /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA05CC285B1FF9003EC5DA /* SelectSomethingView.swift */; };
+		A3FA05CF285C4C5A003EC5DA /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA05CE285C4C5A003EC5DA /* ArticleRow.swift */; };
+		A3FA05D1285C4EEA003EC5DA /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA05D0285C4EEA003EC5DA /* ReadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A3714846285A506D00FD4B59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3714848285A507400FD4B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A371484B285A507400FD4B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3714852285A50BB00FD4B59 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		A3FA05CC285B1FF9003EC5DA /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		A3FA05CE285C4C5A003EC5DA /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		A3FA05D0285C4EEA003EC5DA /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		A3714843285A506D00FD4B59 /* SimpleNews */ = {
 			isa = PBXGroup;
 			children = (
+				A3FA05CC285B1FF9003EC5DA /* SelectSomethingView.swift */,
 				A3714844285A506D00FD4B59 /* SimpleNewsApp.swift */,
+				A3FA05CE285C4C5A003EC5DA /* ArticleRow.swift */,
+				A3FA05D0285C4EEA003EC5DA /* ReadingView.swift */,
 				A3714846285A506D00FD4B59 /* ContentView.swift */,
+				A3714852285A50BB00FD4B59 /* Article.swift */,
 				A3714848285A507400FD4B59 /* Assets.xcassets */,
 				A371484A285A507400FD4B59 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FA05CF285C4C5A003EC5DA /* ArticleRow.swift in Sources */,
 				A3714847285A506D00FD4B59 /* ContentView.swift in Sources */,
+				A3FA05CD285B1FF9003EC5DA /* SelectSomethingView.swift in Sources */,
+				A3FA05D1285C4EEA003EC5DA /* ReadingView.swift in Sources */,
 				A3714845285A506D00FD4B59 /* SimpleNewsApp.swift in Sources */,
+				A3714853285A50BB00FD4B59 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleNews/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,6 +293,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleNews/Preview Content\"";
+				DEVELOPMENT_TEAM = PFVCA649R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,7 +11,10 @@ import SwiftUI
 struct SimpleNewsApp: App {
     var body: some Scene {
         WindowGroup {
+            NavigationView{
             ContentView()
+                SelectSomethingView()
+            }
         }
     }
 }
